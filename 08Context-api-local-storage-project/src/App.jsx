@@ -81,7 +81,7 @@ function App() {
           <div className='mb-4'>{/* Todo form goes here */}</div>
           <div className='flex flex-wrap gap-y-3'>
             {todos.map((todo) => (
-              <div key={todo.id}>
+              <div className='w-full' key={todo.id}>
                 <TodoItem todo={todo} />
               </div>
             ))}
