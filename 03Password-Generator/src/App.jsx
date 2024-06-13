@@ -1,7 +1,6 @@
 // eslint-disable-next-line no-unused-vars
-import { useState, useCallback, useRef } from 'react';
+import { useState, useCallback, useRef, useEffect } from 'react';
 import './App.css';
-import { useEffect } from 'react';
 
 function App() {
   const [length, setLength] = useState(8);

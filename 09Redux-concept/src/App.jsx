@@ -1,10 +1,13 @@
 import './App.css';
+import AddTodo from './components/AddTodo';
+import Todos from './components/Todos';
 
 function App() {
   return (
     <>
-      <div className='text-3xl bg-red-600'>helllo redux</div>
-      <h1 className='text-3xl font-bold underline'>Hello world!</h1>
+      {/* <div className='text-3xl bg-red-600'>helllo redux</div> */}
+      <AddTodo />
+      <Todos />
     </>
   );
 }
