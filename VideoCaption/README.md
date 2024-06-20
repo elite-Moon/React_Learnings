@@ -1,8 +1,24 @@
-# React + Vite
+STEPS TO RUN THE PROJECT-->
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+STEP 1 -  click on this link
+https://video-caption-generation-webapp.netlify.app
 
-Currently, two official plugins are available:
+STEP 2 - copy any of these link and paste into VideoURL box
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4
+
+https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4
+
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4
+
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4
+
+STEP 3 - 
+Enter your caption 
+
+STEP 4 - 
+Enter the timestamp (in seconds)  
+STEP 5 - 
+Click on Generate Caption BUTTON
+
+NOTE- once the caption was added you can add as many caption you want and the prevoius caption was still present ­in the video
