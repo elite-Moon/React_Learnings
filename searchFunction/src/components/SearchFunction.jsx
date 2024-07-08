@@ -74,7 +74,7 @@ const SearchFunction = () => {
         className='form-control'
         value={query}
         onChange={handleInputChange}
-        placeholder='Search...'
+        placeholder='Search...Movies Name'
       />
       <div className='mt-3'>
         {results.map((result, index) => (
