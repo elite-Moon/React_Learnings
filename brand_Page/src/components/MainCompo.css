@@ -1,0 +1,131 @@
+.main {
+  /* border: 1px solid red; */
+  height: 100vh;
+  max-width: 1125px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+  /* overflow-y: hidden; */
+  /* overflow-x: hidden; */
+  overflow: hidden;
+
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid green; */
+  height: 613px;
+  width: 490px;
+  justify-content: center;
+  /* align-items: center; */
+  /* padding-bottom: 33px; */
+  margin-bottom: 32px;
+
+}
+
+.main-content>:nth-child(2) {
+  color: #5A5959;
+  margin-top: 32px;
+}
+
+.main-content>:nth-child(1) {
+  font-weight: bolder;
+  font-size: 500%;
+  font-weight: 800;
+  line-height: 90%;
+  /* margin-top: 33px; */
+}
+
+.main-img {
+  display: flex;
+  height: 613px;
+  width: 530px;
+  /* border: 1px solid purple; */
+  animation: bounce 3s infinite;
+  margin-top: 133px;
+  /* Animation */
+}
+
+@keyframes bounce {
+
+  0%,
+  20%,
+  50%,
+  180%,
+  100% {
+    transform: translateY(0);
+  }
+
+  150% {
+    transform: translateY(-30px);
+  }
+
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+
+
+
+.btn-sec {
+  display: flex;
+  /* flex-direction: column; */
+  /* border: 4px solid rgb(0, 0, 0); */
+  align-items: center;
+  gap: 22px;
+  margin-top: 32px;
+  cursor: pointer;
+}
+
+.btn-sec> :nth-child(1) {
+  /* display: flex; */
+  /* border: 1px solid green; */
+  align-items: center;
+  gap: 12px;
+  min-width: 120px;
+}
+
+
+.btn-sec> :nth-child(2) {
+
+  border: 1px solid gray;
+  align-items: center;
+  gap: 12px;
+  min-width: 150px;
+  background-color: #fff;
+  color: gray;
+}
+
+.shop-now {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid green; */
+  margin-top: 32px;
+  gap: 22px;
+  color: gray;
+  padding-top: 12px;
+
+}
+
+.shop-now>:nth-child(2) {
+  width: 222px;
+  /* margin-left: 22px; */
+  /* gap: 12px; */
+
+}
+
+.shop-now>:nth-child(3) {
+  margin-left: 22px;
+  /* gap: 12px; */
+}
+
+.brand-logo {
+  display: flex;
+  /* margin-left: 12px; */
+  gap: 22px;
+  cursor: pointer;
+}

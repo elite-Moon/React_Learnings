@@ -1,0 +1,40 @@
+:root {
+  --red: #d01c28 --gray:#2e2e2e
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 80vw;
+  margin: 0 auto;
+  /* border: 1px solid black; */
+  height: 5rem;
+  align-items: center;
+
+
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1.4rem;
+}
+
+button {
+  all: unset;
+  background-color: red;
+  padding: 0.1 0.1 0.1 0.1rem;
+  padding-left: 0.2rem;
+  color: white;
+  height: 2.6rem;
+  width: 4.5rem;
+  font-weight: 500;
+  text-align: center;
+  border-radius: 2px;
+  cursor: pointer;
+}
