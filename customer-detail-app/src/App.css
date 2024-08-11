@@ -1,0 +1,139 @@
+/* App.css */
+.app-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  margin-top: 20px;
+  height: 100vh;
+  width: 100%;
+  background: #dedbdb;
+  overflow: hidden;
+}
+
+/* CustomerList.css */
+.customer-list {
+  flex: 1;
+  max-width: 480px;
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+  max-height: 100%;
+  overflow-y: auto;
+}
+
+.customer-list h1 {
+  font-weight: 200;
+  scroll-behavior: smooth;
+}
+
+.customer-card {
+  padding: 15px;
+  margin-bottom: 13px;
+  cursor: pointer;
+  text-align: left;
+  border: 1px solid transparent;
+  scroll-behavior: smooth;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.customer-card.selected {
+  background-color: #e0e0e0;
+  border-color: #ccc;
+  border-right: 6px solid rgb(169, 163, 163);
+}
+
+/* CustomerDetails.css */
+.customer-details {
+  flex: 2;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.customer-details h1 {
+  margin-bottom: 15px;
+}
+
+.customer-details p {
+  margin-bottom: 20px;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 20px;
+  min-height: 320px;
+  /* Set a minimum height for the grid area */
+}
+
+.photo-grid img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 30px;
+  background-color: #f0f0f0;
+  /* Placeholder color */
+}
+
+/* Placeholder style for empty photo slots */
+.photo-grid .placeholder {
+  background-color: #e0e0e0;
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.no-customer {
+  padding: 20px;
+  font-size: 18px;
+}
+
+@media (max-width: 767px) {
+  .content {
+    flex-direction: column;
+  }
+
+  .customer-list {
+    max-width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .photo-grid {
+    grid-template-columns: repeat(2, 1fr);
+    min-height: 220px;
+    /* Adjust for smaller screens */
+  }
+
+  .photo-grid img,
+  .photo-grid .placeholder {
+    height: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .photo-grid {
+    grid-template-columns: 1fr;
+    gap: 5px;
+    min-height: 120px;
+    /* Adjust for the smallest screens */
+  }
+
+  .customer-card {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .customer-details {
+    padding: 10px;
+  }
+
+  .photo-grid img,
+  .photo-grid .placeholder {
+    height: 120px;
+  }
+}
