@@ -1,0 +1,176 @@
+.global-form {
+  display: flex;
+  flex-direction: row;
+}
+
+.contact-img {
+  width: 618px;
+  height: 715px;
+  gap: 0px;
+  opacity: 0px;
+
+}
+
+
+
+.main-contact {
+  /* max-width: 1000px; */
+  width: 472px;
+  margin-left: 360px;
+  /* border: 1px solid yellow; */
+  /* height: 90vh; */
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.contactForm {
+  display: flex;
+  flex-direction: row;
+  /* border: 1px solid green; */
+  margin: 0 auto;
+  max-width: 1000px;
+  gap: 12px;
+}
+
+
+.contactForm button {
+  width: 230px;
+  height: 44px;
+  padding: 10px 18px 10px 18px;
+
+  border-radius: 5px 0px 0px 0px;
+  opacity: 0px;
+
+}
+
+.btn-form {
+
+  display: flex;
+
+}
+
+.btn-form button {
+
+  width: 472px;
+  height: 44px;
+  padding: 10px 18px 10px 18px;
+  gap: 10px;
+  border-radius: 5px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  background-color: #fff;
+  color: #000;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 32px;
+
+
+}
+
+
+.input-name {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-name label {
+  background-color: white;
+  width: 52px;
+  height: 20px;
+  left: 24px;
+  padding: 1px 4px 4px 6px;
+  gap: 10px;
+  opacity: 0px;
+  position: relative;
+  top: 12px;
+
+
+}
+
+.input-name input {
+  width: 465px;
+  height: 40px;
+  top: 10px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  font-size: 15px;
+  font-family: "Poppins";
+
+}
+
+.input-email {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-email label {
+  background-color: white;
+  width: 52px;
+  height: 20px;
+  left: 24px;
+  padding: 1px 4px 4px 6px;
+  gap: 10px;
+  opacity: 0px;
+  position: relative;
+  top: 12px;
+}
+
+.input-email input {
+  width: 465px;
+  height: 40px;
+  top: 10px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  font-size: 15px;
+  font-family: "Poppins";
+}
+
+.input-msg {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-msg label {
+  background-color: white;
+  width: 80px;
+  height: 20px;
+  left: 24px;
+  padding: 1px 4px 4px 8px;
+  gap: 10px;
+  opacity: 0px;
+  position: relative;
+  top: 12px;
+}
+
+.input-msg textarea {
+  width: 465px;
+  height: 120px;
+  top: 148px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  font-size: 15px;
+  font-family: "Poppins";
+
+}
+
+.inputbtn button {
+  width: 240px;
+  height: 44px;
+  padding: 10px 18px 10px 18px;
+  gap: 10px;
+  border-radius: 5px 0px 0px 0px;
+  opacity: 0px;
+  position: relative;
+  left: 233px;
+  bottom: 32px;
+
+}

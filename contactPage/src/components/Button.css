@@ -1,0 +1,20 @@
+.Button {
+  width: 220px;
+  height: 44px;
+  align-items: center;
+  padding: 10px 18px 10px 18px;
+
+  border-radius: 5px 0px 0px 0px;
+  opacity: 0px;
+  background-color: #000000;
+  gap: 12px;
+  outline: none;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  color: white;
+  margin-top: 42px;
+
+}
