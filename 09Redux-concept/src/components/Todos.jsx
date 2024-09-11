@@ -10,7 +10,6 @@ function Todos() {
   return (
     <>
       <div>Todos Items</div>
-
       <ul className='list-none'>
         {todosList.map((todo) => (
           <li

@@ -1,0 +1,43 @@
+.cspm-main {
+  display: grid;
+  flex-direction: row;
+}
+
+
+.cspm-main {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  /* Adds space between different categories */
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* Allows wrapping if the cards can't fit in a single row */
+  justify-content: space-between;
+  /* Distributes the space between cards */
+  /* gap: 10px; */
+  /* Adds space between cards */
+}
+
+.card {
+  background: inherit;
+  border-radius: 8px;
+  padding: 20px;
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+  flex: 1;
+  /* margin-left: 2rem; */
+  margin-top: 2rem;
+  /* All cards take equal space */
+  min-width: 350px;
+  /* Prevents cards from shrinking too much */
+  max-width: calc(33.33% - 20px);
+  /* Ensures three cards fit in one row */
+}
+
+
+.cspm-main h3 {
+  margin-top: 3rem;
+}

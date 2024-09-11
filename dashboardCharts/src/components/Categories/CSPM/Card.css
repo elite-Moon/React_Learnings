@@ -1,0 +1,12 @@
+.card {
+  display: grid;
+  background-color: inherit;
+  /* flex-direction: row; */
+}
+
+.card-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 11rem;
+  /* Adjust spacing as needed */
+}

@@ -1,0 +1,68 @@
+.date-filter-container {
+  width: 15rem;
+  margin-left: 11rem;
+  position: relative;
+  left: 14rem;
+}
+
+.date-filter-button {
+  margin-left: 13rem;
+  background-color: #ffffff;
+  /* White background */
+  border: 1px solid #ddd;
+  /* Light grey border */
+  color: #333;
+  /* Dark grey text color */
+  padding: 8px 12px;
+  /* Padding for better spacing */
+  font-size: 14px;
+  /* Font size */
+  border-radius: 6px;
+  /* Rounded corners */
+  cursor: pointer;
+  /* Cursor pointer on hover */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 180px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  /* Light shadow */
+}
+
+.date-filter-button:hover {
+  background-color: #f8f8f8;
+  /* Slightly darker background on hover */
+}
+
+.date-filter-icon {
+  font-size: 10px;
+  /* Smaller icon size */
+  margin-left: 8px;
+  /* Space between text and icon */
+  color: #666;
+  /* Icon color */
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 110%;
+  left: 0;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  min-width: 250px;
+  padding: 10px;
+  margin-top: 4px;
+}
+
+.dropdown-item {
+  padding: 8px 0;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background-color: #f0f4ff;
+  /* Light blue on hover */
+}
